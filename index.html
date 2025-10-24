@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+</head>
+<body>
+<form>
+
+  <label style="display:inline-block; width:150px;"><span style="color:red">✱</span> Company:</label>
+  <input type="text" maxlength="15" required>
+  <br><br>
+
+  <label style="display:inline-block; width:150px;"><span style="color:red">✱</span> First Name:</label>
+  <input type="text" maxlength="10" required>
+  <br><br>
+
+  <label style="display:inline-block; width:150px;"><span style="color:red">✱</span> Last Name:</label>
+  <input type="text" maxlength="10" required>
+  <br><br>
+
+  <label style="display:inline-block; width:150px;"><span style="color:red">✱</span> Email Address:</label>
+  <input type="email" required>
+  <br><br>
+
+  <label style="display:inline-block; width:150px;"><span style="color:red">✱</span> Title:</label>
+  <input type="text" maxlength="50" required>
+  <br><br>
+
+  <label style="display:inline-block; width:150px;"><span style="color:red">✱</span> Phone:</label>
+  <input type="tel" minlength="11" maxlength="11" required>
+  <br><br>
+
+  <label style="display:inline-block; width:150px;">Cancel Registration:</label>
+  <input type="checkbox">
+  <br><br>
+
+  <label style="display:inline-block; width:150px;"><span style="color:red">✱</span> 252 Training Session 2010:</label>
+  <select required>
+    <option value="">--select a date--</option>
+    <option>25 Oct</option>
+    <option>26 Oct</option>
+    <option>27 Oct</option>
+    <option>28 Oct</option>
+    <option>29 Oct</option>
+    <option>30 Oct</option>
+  </select>
+  <br><br>
+
+  <label style="display:inline-block; width:150px;"><span style="color:red">✱</span> Job Function:</label>
+  <input type="radio">Campaign Management
+  <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="radio"> CRM Management <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="radio"> Email Deployment <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="radio"> Partner<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="radio">Employee
+  <br><br>
+  <label style="display:inline-block; width:150px;">Dietary Requirements:</label>
+  <input type="text">
+  <br><br>
+
+  <label for="expectations" style="display:inline-block; width:150px; vertical-align:top;">Expectations?:</label>
+  <textarea id="expectations" rows="5" cols="40"></textarea>
+  <br><br>
+  <input style="display: inline-block;" type="submit" value="Submit">
+</form>
+</body>
+</html>
